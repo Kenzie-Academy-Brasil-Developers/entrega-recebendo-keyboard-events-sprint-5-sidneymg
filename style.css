@@ -1,0 +1,16 @@
+body {
+    background-image: url(/img/countsheep.jpg);
+    background-size: cover;
+}
+
+#box { 
+    width: 100px; 
+    height: 100px; 
+    position: absolute; 
+    background: transparent; 
+    left: 200px; 
+    top: 200px; 
+}
+#box > img{
+    width: inherit;
+}
